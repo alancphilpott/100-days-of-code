@@ -2,24 +2,54 @@
 
 #### Challenge Start Date: April 17, 2020
 
-I began the log on Day 52 of the challenge. To view the progress of the first 51 days, all updates were posted to my [Twitter](https://twitter.com/alanphilpott_) account.
+I began the log on Day 50 of the challenge. To view the progress of the first 50 days, all updates were posted to my [Twitter](https://twitter.com/alanphilpott_) account.
 
-### Day 0: February 30, 2016 (Example 1)
+### Day 50: June 5, 2020
 
-##### (delete me or comment me out)
+##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Todays Progress**: Began creating a todo app, finished its layout and can create todos.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts**
 
-**Link to work:** [Calculator App](http://www.example.com)
+-   Introduced to the DOM for the first time. Nothing too complicated, yet.
+-   Differece between a HTML Collection and NodeList when obtaining HTML elements through JS.
+-   How to create Events and handle Event Bubbling.
+-   Dynamically add HTML elements using JS.
+-   Working with Google Fonts API and Font Awesome Icons.
+-   Using Emmet Shortcuts
 
-### Day 0: February 30, 2016 (Example 2)
+**Useful Resources**
+[Google Fonts API](https://developers.google.com/fonts)
+[Font Awesome](https://fontawesome.com/)
+[Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
-##### (delete me or comment me out)
+### Day 51: June 6, 2020
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Todays Progress**: Continuing todo app, added complete and delete todo functionality.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Thoughts**
+
+-   Learnt how to toggle CSS classes from within JavaScript.
+-   Improving at working with Parent-Child elements in JS.
+-   Creating animation effects when an event occurs.
+-   Working with and styling the select HTML elememt.
+-   Realisation that CSS class naming is important to prevent errors.
+
+### Day 52: June 7, 2020
+
+##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Completed todo app. Fixed filtering todos errors. Todos now save to the browsers local storage. Added favicon. Project hosted using GitHub Pages service (see link to work below).
+
+**Thoughts**
+
+-   Difference between local and session storage.
+-   Used stackoverflow to find out a CSS property related to Mozilla called "-moz-focusring".
+-   Deleting items from local storage can be tricky. Used alternative method than suggested from the course called Arrray.filter().
+
+There is definitely more work that can be done to this app such as when refreshing the page, the todos marked as completed, stay marked as completed. That would require some manipulation of the data when saving to the browsers local storage. Will come back to this at a later date.
+
+**Link to Work**: [Todo App - GitHub Pages](https://alancphilpott.github.io/simplist)
