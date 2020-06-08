@@ -3,7 +3,8 @@
 ### Challenge Start Date: April 17, 2020
 
 This log was created on Day 50 of the 100 Days of Code Challenge.
-I also post updates to my [Twitter](https://twitter.com/alanphilpott_)
+
+Daily updates are also posted to my [Twitter](https://twitter.com/alanphilpott_).
 
 ## Day 1 to 50 Overview
 
@@ -50,9 +51,7 @@ View Guide [Here](https://www.learncloudnative.com/blog/2020-04-29-beginners-gui
 
 I came across a post on Twitter by [pjausovec](https://twitter.com/pjausovec) asking for feedback on a recent blog post of his in relation to Docker. Having not worked with Docker in over 2 years I wanted to revise the basics and this blog helped a lot.
 
-**Link to Work**
-
-[dockerhub](https://hub.docker.com/repository/docker/alanphilpott/docker-layers)
+**Link to Work**: [dockerhub](https://hub.docker.com/repository/docker/alanphilpott/docker-layers)
 
 ### Day 44 to Current
 
@@ -68,7 +67,7 @@ developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creat
 
 ### Day 50: June 5, 2020
 
-##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
 
 **Todays Progress**: Began creating a todo app, finished its layout and can create todos.
 
@@ -89,7 +88,7 @@ developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creat
 
 ### Day 51: June 6, 2020
 
-##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
 
 **Todays Progress**: Continuing todo app, added complete and delete todo functionality.
 
@@ -103,7 +102,7 @@ developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creat
 
 ### Day 52: June 7, 2020
 
-##### [Resource](https://developedbyed.com/p/the-creative-javascript-course)
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
 
 **Todays Progress**: Completed todo app. Fixed filtering todos errors. Todos now save to the browsers local storage. Added favicon. Project hosted using GitHub Pages service (see link to work below).
 
