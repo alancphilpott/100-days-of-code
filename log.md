@@ -115,3 +115,23 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 There is definitely more work that can be done to this app such as when refreshing the page, the todos marked as completed, stay marked as completed. That would require some manipulation of the data when saving to the browsers local storage. Will come back to this at a later date.
 
 **Link to Work**: [Todo App - GitHub Pages](https://alancphilpott.github.io/simplist)
+
+### Day 53: June 8, 2020
+
+eCollege JavaScript [Course](https://www.fetchcourses.ie/course/finder?sfcw-courseId=228121)
+
+**Todays Progress**: Continuing with the eCollege JavaScript course requires me to go back over a lot of the basics as the later parts of the course are not accessible until they are complete. Nothing challenging today.
+
+**Thoughts**
+
+The course consists of 5 topics to cover. Each topic requiring about 2 weeks of study for someone new to programming. I finished the first topic today and noted the most important areas for this topic. Topic 1 teaches Operators, Methods and Keywords.
+
+-   Be aware of the reserve keywords, e.g. Document, Debugger, Finally, Try, Console, Window, Catch, Log, Screen.
+-   Know the symbols for basic math, especially the modulas operator. It can have it's own entier exam topic.
+-   How to use compound assignment operators.
+-   Increment and Decremenet prefix and postfix.
+-   Best practices: comments, indentations, naming conventions, debugging tools.
+-   Using inline and external scripts, including precendence rules.
+-   Try, Catch and Finally.
+-   Differences between alert, confirm, and prompty dialogs.
+-   How to retrieve screen size, important for responsive design.
