@@ -82,8 +82,9 @@ developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creat
 -   Using Emmet Shortcuts
 
 **Useful Resources**
-[Google Fonts API](https://developers.google.com/fonts)
-[Font Awesome](https://fontawesome.com/)
+
+[Google Fonts API](https://developers.google.com/fonts) |
+[Font Awesome](https://fontawesome.com/) |
 [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
 ### Day 51: June 6, 2020
