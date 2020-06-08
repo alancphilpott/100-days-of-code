@@ -1,8 +1,64 @@
 # 100 Days Of Code - Log
 
-#### Challenge Start Date: April 17, 2020
+### Challenge Start Date: April 17, 2020
 
-I began the log on Day 50 of the challenge. To view the progress of the first 50 days, all updates were posted to my [Twitter](https://twitter.com/alanphilpott_) account.
+This log was created on Day 50 of the 100 Days of Code Challenge.
+I also post updates to my [Twitter](https://twitter.com/alanphilpott_)
+
+### Day 1 to 50 Complete Overview
+
+#### Day 1 to 42 Node.js Project
+
+Learn to build highly-scalable, fast and secure RESTful APIs with Node, Express, and MongoDB. I plan to add a React Front-End to this application in the near future.
+
+Completed Course Topics on Day 37.
+Day 38 to 42 spent Integration Testing app.
+
+**List of Topics**
+
+-   Node and It's Architecture
+-   Node Module System
+-   Node Package Manager (NPM)
+-   RESTful APIs w/ Express
+-   Express Advanced Topics
+-   Asynchronous JavaScript
+-   Mongoose & MongoDB
+-   Mongo Data Validation
+-   Modelling Relationships
+-   Authentication & Authorization
+-   Handling & Logging Errors
+-   TDD + Unit & Integration Testing w/ Jest
+-   Heroku Deployment
+
+**Link to Work**
+[Repository](https://github.com/alancphilpott/castify)
+API Endpoints: [Genres](https://castify.herokuapp.com/api/genres) & [Movies](https://castify.herokuapp.com/api/movies)
+
+#### Day 11 to 22 Microverse
+
+[About](https://www.microverse.org/) Microverse
+I was successful in the Microverse application process and became a student for 2 weeks. My goal was to improve my collaboration and peer-programming skills. After 2 weeks in I realised that the course was not for me and I could also feel that Microverse was still in its early stages with cracks yet to be ironed out. I provided useful feedback to the company and parted ways. Still met some great people.
+
+**Link to Work**
+YouTube Video Player Page Clone [Repo](https://github.com/alancphilpott/youtube-clone) | [Live](https://rawcdn.githack.com/alancphilpott/youtube-clone/master/index.html)
+Mint.com Sign-Up Page [Repo](https://github.com/DejazmachMolla/HTML-Forms) | [Live](https://rawcdn.githack.com/DejazmachMolla/HTML-Forms/master/index.html)
+
+#### Day 24 Beginners Guide to Docker
+
+View Guide [Here](https://www.learncloudnative.com/blog/2020-04-29-beginners-guide-to-docker/#pull-and-run)
+I came across a post on Twitter by [pjausovec](https://twitter.com/pjausovec) asking for feedback on a recent blog post of his in relation to Docker. Having not worked with Docker in over 2 years I wanted to revise the basics and this blog helped a lot.
+
+**Link to Work**
+[dockerhub](https://hub.docker.com/repository/docker/alanphilpott/docker-layers)
+
+## Day 44 to Current
+
+eCollege JavaScript [Course](https://www.fetchcourses.ie/course/finder?sfcw-courseId=228121)
+As JavaScript was not taught during my Bachelors Degree, I want to solidify the basics of my JavaScript knowledge. Contains Microsoft Technology Associate exam.
+
+#### Day 49 to Current
+
+developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
 
 ### Day 50: June 5, 2020
 
