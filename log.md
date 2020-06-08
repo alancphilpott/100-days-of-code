@@ -5,15 +5,11 @@
 This log was created on Day 50 of the 100 Days of Code Challenge.
 I also post updates to my [Twitter](https://twitter.com/alanphilpott_)
 
-## Day 1 to 50 Complete Overview
+## Day 1 to 50 Overview
 
 ### Day 1 to 42 Node.js Project
 
-Learn to build highly-scalable, fast and secure RESTful APIs with Node, Express, and MongoDB. I plan to add a React Front-End to this application in the near future.
-
-Completed Course Topics on Day 37.
-
-Day 38 to 42 spent Integration Testing app.
+Learn to build highly-scalable, fast and secure RESTful APIs with Node, Express, and MongoDB. I plan to add a React Front-End to this application in the near future. The course topics were completed on Day 37 and I spent day 38 to 42 integration testing the application.
 
 **List of Topics**
 
@@ -35,9 +31,7 @@ Day 38 to 42 spent Integration Testing app.
 
 [Repository](https://github.com/alancphilpott/castify)
 
-API Endpoints:
-
-[Genres](https://castify.herokuapp.com/api/genres) & [Movies](https://castify.herokuapp.com/api/movies)
+API Endpoints: [Genres](https://castify.herokuapp.com/api/genres) & [Movies](https://castify.herokuapp.com/api/movies)
 
 ### Day 11 to 22 Microverse
 
@@ -69,6 +63,8 @@ As JavaScript was not taught during my Bachelors Degree, I want to solidify the 
 ### Day 49 to Current
 
 developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+## Daily Log Update Begins Here
 
 ### Day 50: June 5, 2020
 
