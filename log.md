@@ -135,3 +135,23 @@ The course consists of 5 topics to cover. Each topic requiring about 2 weeks of 
 -   Try, Catch and Finally.
 -   Differences between alert, confirm, and prompty dialogs.
 -   How to retrieve screen size, important for responsive design.
+
+### Day 54: June 9, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Started working on Chapter 4 of Ed's Creative JavaScript course. This chapter focuses on working with Arrays, of which I am very familiar with already, but getting a unique perspective based on his teaching methods is still a valuable case.
+
+**Thoughts**
+
+I made it through 7/10 topics with Chapter 4: Arrays. The areas covered were:
+
+-   Primitives and Reference Data Types - great refresher on something easily overlooked by programmers.
+-   Higher Order Functions and Callbacks - very valuable information, especially since JS is highly event-driven.
+-   Array.map()
+-   Array.find()
+-   Array.filter()
+-   Array.some() and Array.every() - was my first time using these methods, will definitely use in future.
+-   Ternary Operator - the only conditional operator to have 3 operands and something no developer can do without.
+
+I am committing this work to GitHub but to a private repository.
