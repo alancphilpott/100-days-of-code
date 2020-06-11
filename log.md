@@ -155,3 +155,21 @@ I made it through 7/10 topics with Chapter 4: Arrays. The areas covered were:
 -   Ternary Operator - the only conditional operator to have 3 operands and something no developer can do without.
 
 I am committing this work to GitHub but to a private repository.
+
+### Skipped June 10, 2020 - Too unwell.
+
+### Day 55: June 11, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Finished of Chatper 4 of Ed's Creative JavaScript Course.
+
+**Thoughts**
+
+I made it through the final 3 topics of Chapter 4: Arrays. The areas covered were:
+
+-  Arrow Functions: a great compact alternative to regular function expressions. If the function has one statement within it, the curly brackets can be removed and the statement result is automatically returned.
+- Array Sorting: Calling sort() without any arguments will sort Strings, but to sort Numbers, the optional compareFunction arguments can be passed in, sort(firstEl, secondEl).
+- Spread Syntax: Something I'd seen before maybe once or twice, used to create a clone of Arrays/Objects which as a result will not affect the original reference data.
+
+I am committing this work to GitHub but to a private repository.
