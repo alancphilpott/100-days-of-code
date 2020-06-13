@@ -168,9 +168,9 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 
 I made it through the final 3 topics of Chapter 4: Arrays. The areas covered were:
 
--  Arrow Functions: a great compact alternative to regular function expressions. If the function has one statement within it, the curly brackets can be removed and the statement result is automatically returned.
-- Array Sorting: Calling sort() without any arguments will sort Strings, but to sort Numbers, the optional compareFunction arguments can be passed in, sort(firstEl, secondEl).
-- Spread Syntax: Something I'd seen before maybe once or twice, used to create a clone of Arrays/Objects which as a result will not affect the original reference data.
+-   Arrow Functions: a great compact alternative to regular function expressions. If the function has one statement within it, the curly brackets can be removed and the statement result is automatically returned.
+-   Array Sorting: Calling sort() without any arguments will sort Strings, but to sort Numbers, the optional compareFunction arguments can be passed in, sort(firstEl, secondEl).
+-   Spread Syntax: Something I'd seen before maybe once or twice, used to create a clone of Arrays/Objects which as a result will not affect the original reference data.
 
 I am committing this work to GitHub but to a private repository.
 
@@ -183,13 +183,28 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 **Thoughts**
 Having a larger exposure to Java for the last number of years, the topic of Objects was nothing new to me, but within JavaScript there is a number of ways to create Objects.
 
--  Global Execution Context: Quick look into the compilation and execution phase. The compilation phase creates the default objects such as window in the browser and global within Node. Hoisting is also performed here, where functions and var declarations are stored in memory.
--  Callstack: The compile phase creates the Scope Chain determining what is accessible and where. When a function is called, a new execution context is created and added to the callstack. Once the function finishes executing, it is popped from the callstack and the execution context continues.
--  This Keyword: A pointer which references an object. This will be the window/global object by default. Using inside of an object method will reference the object itself.
--  Bind, Call, Apply: Functions are a type of Object. Allows setting of the this keyword to reference any object.
--  Constructor Functions: Used to instatiate an object using optional parameters.
--  Prototype: An object which every new object references. Used to add methods to an object to prevent duping of logic within each instance of an object.
--  Prototypal Inheritance: Copying/Inheriting functionality from another constructor. Allows creation of more specific types of an object.
-- Classes: Blueprints used for the creation of objects.
+-   Global Execution Context: Quick look into the compilation and execution phase. The compilation phase creates the default objects such as window in the browser and global within Node. Hoisting is also performed here, where functions and var declarations are stored in memory.
+-   Callstack: The compile phase creates the Scope Chain determining what is accessible and where. When a function is called, a new execution context is created and added to the callstack. Once the function finishes executing, it is popped from the callstack and the execution context continues.
+-   This Keyword: A pointer which references an object. This will be the window/global object by default. Using inside of an object method will reference the object itself.
+-   Bind, Call, Apply: Functions are a type of Object. Allows setting of the this keyword to reference any object.
+-   Constructor Functions: Used to instatiate an object using optional parameters.
+-   Prototype: An object which every new object references. Used to add methods to an object to prevent duping of logic within each instance of an object.
+-   Prototypal Inheritance: Copying/Inheriting functionality from another constructor. Allows creation of more specific types of an object.
+-   Classes: Blueprints used for the creation of objects.
 
 I am committing this work to GitHub but to a private repository.
+
+### Day 57: June 13, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Finished the beatmaker project of Ed's Creative JavaScript Course.
+
+**Thoughts**
+I coded along with the tutorial videos but tomorrow I will add some more beats and functionality to the app to solidify my understanding of its creation. During this process I am sure to come up with another app I could create using similar knowledge.
+
+-   Defining a class and creating an object.
+-   Adding methods to the object to update/control props.
+-   Functionality includes: selecting "pads" to play sounds on, choosing different sounds, play and pause feature, mute tracks and tempo slider.
+
+**Link to Work**: [Beatmaker App - GitHub Pages](https://alancphilpott.github.io/beatmaker)
