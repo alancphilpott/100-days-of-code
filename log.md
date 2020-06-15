@@ -219,3 +219,18 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 Adding the additional tracks and sounds was a straight forward process. While updating it it made it more clear how the application was working and I would be comfortable making this again in the future.
 
 **Link to Work**: [Beatmaker App - GitHub Pages](https://alancphilpott.github.io/beatmaker)
+
+### Day 59: June 15, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Began a new project called Coolors which is a random color palette generator app. So far have created the page layout and styled most of it. The page will generate a random color palette on load.
+
+**Thoughts**
+Today extra focus was given to how the HTML page was being setup in terms of it being ready to style with CSS. Any CSS property which I was unsure of I read over its description and examples on MDN. Some examples include refreshing the position property as well as overflow, transition, overflow, border-radius and how to determine the containing block, as the size and position of an element is often impacted by its containing block.
+
+This project will include the use of an external javascript library known as ChromaJS. This is a library to handle to complexities of working with colors, in terms of color conversions and color scales.
+
+When accesing the children of a div or selected element, it's important to know the different between the childNodes property and the children property as one returns a Node List and one a HTML Collection.
+
+**Link to Work**: The work for this will be linked once complete, check later days in the log.
