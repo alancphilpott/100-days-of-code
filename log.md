@@ -208,3 +208,14 @@ I coded along with the tutorial videos but tomorrow I will add some more beats a
 -   Functionality includes: selecting "pads" to play sounds on, choosing different sounds, play and pause feature, mute tracks and tempo slider.
 
 **Link to Work**: [Beatmaker App - GitHub Pages](https://alancphilpott.github.io/beatmaker)
+
+### Day 58: June 14, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Updated the beatmaker project by adding additional tracks and sounds.
+
+**Thoughts**
+Adding the additional tracks and sounds was a straight forward process. While updating it it made it more clear how the application was working and I would be comfortable making this again in the future.
+
+**Link to Work**: [Beatmaker App - GitHub Pages](https://alancphilpott.github.io/beatmaker)
