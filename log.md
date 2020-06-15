@@ -224,10 +224,10 @@ Adding the additional tracks and sounds was a straight forward process. While up
 
 Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
 
-**Todays Progress**: Began a new project called Coolors which is a random color palette generator app. So far have created the page layout and styled most of it. The page will generate a random color palette on load.
+**Todays Progress**: Began a new project called Coolors which is a random color palette generator app. So far have created the page layout and styled most of it. The page currently generates a random color palette on load. Functionality still needs to be added to the page controls.
 
 **Thoughts**
-Today extra focus was given to how the HTML page was being setup in terms of it being ready to style with CSS. Any CSS property which I was unsure of I read over its description and examples on MDN. Some examples include refreshing the position property as well as overflow, transition, overflow, border-radius and how to determine the containing block, as the size and position of an element is often impacted by its containing block.
+Today extra focus was given to how the HTML page was being setup in terms of it being ready to style with CSS. Any CSS property which I was unsure of, I read over its description and examples on MDN. Some examples included refreshing my knowledge of the position property as well as transition, overflow, border-radius, and how to determine the containing block, as the size and position of an element is often impacted by its containing block.
 
 This project will include the use of an external javascript library known as ChromaJS. This is a library to handle to complexities of working with colors, in terms of color conversions and color scales.
 
