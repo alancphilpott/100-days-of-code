@@ -234,3 +234,23 @@ This project will include the use of an external javascript library known as Chr
 When accesing the children of a div or selected element, it's important to know the different between the childNodes property and the children property as one returns a Node List and one a HTML Collection.
 
 **Link to Work**: The work for this will be linked once complete, check later days in the log.
+
+### Day 60: June 16, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Continuing with the Coolors project, adding some functionality to the color sliders so that the hue, brightness and saturation can be used to update the current color in the relevant palette position.
+
+**Thoughts**
+
+-   Text Contrast: The luminance of a color is calculated using the Chroma JS library, the luminance can range from 0 (darkest) to 1 (brightest). If the luminance is above 0.5, the hex text of the color is updated to black, otherwise white, to prevent the text disappearing into the color.
+
+-   Initalizing Sliders: When the page loads, the color sliders are updated in accordance with the current color. There are 3 sliders to for each color, hue, brightness and saturation. The hue slider contains a background set using a range of RGB values to create the hue effect. For brightness, it ranges from dark, to half the current colors luminance, to complete white. Using the Chroma JS set() function allows you to create variations of the current color by updating it's luminance/brightness. The Chroma JS scale() function and passing an array of color variations results in a color function, 0 being the leftmost value of the scale array, to 1, the rightmost value of the scale. Apply this scale to a linear-gradient allows the background of a slider to be more informative to the user. The saturation slider works the same.
+
+-   Make Sliders Update Color: An event listener was added to each slider to check for any input adjustments. If a change happened using a slider, the event would grab the relevant color and update it using the current hue, brightness and saturation values.
+
+-   Update Hex Text and Icon Colors: This needs not only to happen when the page loads, but also update the contrast of the text and icons relevant to a color so that they can always remain seen.
+
+-   Currently a bug exists when using the sliders. Once a slider updates, the sliders work in accordance to the new color, not the color it first generated. Since we only want to modify the original color, it must be kept in reference and used over and over again.
+
+**Link to Work**: The work for this will be linked once complete, check later days in the log.
