@@ -254,3 +254,21 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 -   Currently a bug exists when using the sliders. Once a slider updates, the sliders work in accordance to the new color, not the color it first generated. Since we only want to modify the original color, it must be kept in reference and used over and over again.
 
 **Link to Work**: The work for this will be linked once complete, check later days in the log.
+
+### Day 61: June 17, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Continuing with the Coolors project, fixed the bug mentioned yesterday in relation to update a color. The slider brightness and saturation positions are set and updated in relation to current color. Copy color hex code to clipboard function. Implement slider toggle logic.
+
+**Thoughts**
+
+-   Fixing the bug mentioned yesterday included keeping reference to the original generated color, since that is what is being toggled by the sliders, not the resulting color of the slider changes.
+
+-   Using the Chroma JS library, the brightness and saturation of a color can be calculated very easily. This was used to set the value of the slider positions for each color which is generated.
+
+-   Copying the color hex code to the clipboard required a hack which involves creating a text area element and appending it to the page. The value of the text area is set and then selected before executing the copy command on the document.
+
+-   The sliders were updated to be hidden when the page loads, to use them they must be toggled using the adjustment menu button. This will show the sliders and they can be hidden again by clicking the adjustment button or the X button.
+
+**Link to Work**: The work for this will be linked once complete, check later days in the log.
