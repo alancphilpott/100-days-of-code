@@ -272,3 +272,24 @@ Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p
 -   The sliders were updated to be hidden when the page loads, to use them they must be toggled using the adjustment menu button. This will show the sliders and they can be hidden again by clicking the adjustment button or the X button.
 
 **Link to Work**: The work for this will be linked once complete, check later days in the log.
+
+### Day 62: June 18, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Finished up the Coolors project! Many new features added including contrast checks when generating a new palette. Toggling a colors lock button will cause it to not change when generating a new palette. The save button can be used to save a palette to local storage. The library button can be used to view dynaically generated elements containing palette information. In reality, this project is the largest javascript project I've completed so far, the most difficult things include navigating the lengthy JS file and the abundant amount of element selections really confuses things. At a later date, I will begin looking into libraries which can aid in this. Another difficult thing is dealing with indexes, it can be overwhelming but stresses the importance of knowing the type of data you are dealing with, e.g. What elements you are selected and what their parent/child data are.
+
+**Thoughts**
+A lot of progress made today, finishing it up took many hours of work. Following Ed's videos only helped to a certain extent, I'm not sure if he intentionally left out some areas of work or not but they had to be done, which was great practice. I noticed a few areas where what he was doing could be improved, A LOT, so I implemented almost half the logic just using my own agreeable process.
+
+-   Clicking the generate button will refresh the palette and the color control buttons also needed to be updated. Nothing difficult here as reused existing logic, just added an event listener to the generate button.
+
+-   Toggling the lock button will stop a color from regenerating. This is achieved by toggling a class called "locked" on the relevant color. A simple check is performed and any locked colors are re-added to the palette during the regeneration process.
+
+-   Clicking the save button will present a popup where an input field is filled with a palette name. The name along with the current palette colors are then set as property values of an object. This object is stored in the browser local storage.
+
+-   The library button will present a popup of dynamically generated html. When a palette is saved, it is retrieved from local storage and added to the list of saved palettes in the library. The html elements and classes are generated within javascript.
+
+-   Within the library, a color can be chosen and will update the current color palette to the chosen saved palette. This is a lengthy process but I aimed to reuse as much code as possible, e.g. checking contrast, colorizing sliders and updating slider values. Originally the code consisted of both storing the saved color palettes in local storage but also in an array in code, this confused things so I opted to only use local storage.
+
+**Link to Work**: [Coolors App - GitHub Pages](https://alancphilpott.github.io/coolors)
