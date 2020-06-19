@@ -293,3 +293,25 @@ A lot of progress made today, finishing it up took many hours of work. Following
 -   Within the library, a color can be chosen and will update the current color palette to the chosen saved palette. This is a lengthy process but I aimed to reuse as much code as possible, e.g. checking contrast, colorizing sliders and updating slider values. Originally the code consisted of both storing the saved color palettes in local storage but also in an array in code, this confused things so I opted to only use local storage.
 
 **Link to Work**: [Coolors App - GitHub Pages](https://alancphilpott.github.io/coolors)
+
+### Day 63: June 19, 2020
+
+Resource: developedbyed Creative JavaScript [Course](https://developedbyed.com/p/the-creative-javascript-course)
+
+**Todays Progress**: Began working on the next project which is a website focused on interactivity and animations using additional JS libraries. Currently have the HTML created and the pages initial styling done.
+
+**Thoughts**
+Today was more of a messing around and learning random things day. There were a number of num CSS properties I was introduced to today as well as a JavaScript library called ScrollMagic which simplifies the process of creating scroll events.
+
+-   flex-basis: this property sets the initial length of a flex(ible) item. If flex-direction is set to row, then the flex-basis controls the width, if flex-direction is set to column, flex-basis controls the height. To control the latter (height of row & width of column), the width and height properties must be set. There are a number of flex container properties set by default (listed below), one being flex-shrink. Since flex items are allowed to shrink by default, the flex-basis/width/height properties may be overridden. Read more [here](https://stackoverflow.com/questions/34352140/what-are-the-differences-between-flex-basis-and-width)
+
+1. flex-direction: row - flex items will align horizontally
+2. justify-content: flex-start - flex items will stack at the start of the line on the main axis
+3. align-items: stretch - flex items will expand to cover the cross-size of the container
+4. flex-wrap: nowrap - flex items are forced to stay in a single line
+5. flex-shrink: 1 - a flex item is allowed to shrink
+
+-   Spent some time playing with the ScrollMagic library: In the past scroll effects were controlled using the window scroll event, this presented a number of issues such as sluggishness as the function would be hundreds of times a minute. An alternative is to use the Intersection Observer API which asynchronously observers changes at an intersection of a target element with an ancestor element, the window by default. Creating this IO object takes two arguments, a function: which is called when this intersection occurs and options: which defines info such as the threshold and the ancestor element. The object is then used to observer an element or elements. This API becomes difficult to use as having complex animations is not as simple as creating observers. ScrollMagic allows the creation of complex animations while also visually tracking/debugging animations on the page during development.
+
+**NB**
+I will be taking a break from Ed's Course from now until I have other important work done.
