@@ -315,3 +315,30 @@ Today was more of a messing around and learning random things day. There were a 
 
 **NB**
 I will be taking a break from Ed's Course from now until I have other important work done.
+
+### Day 64: June 20, 2020
+
+Resource: YouTube [Video](https://www.youtube.com/watch?v=z5Fhpi190_g)
+
+**Todays Progress**: Captive Portals
+
+**Thoughts**
+Captive Portals Day 1
+
+### Day 65: June 21, 2020
+
+Resource: Captive Portal [Wiki](https://en.wikipedia.org/wiki/Captive_portal)
+
+**Todays Progress**: Captive Portals
+
+**Thoughts**
+Captive Portals Day 2
+
+### Day 65: June 22, 2020
+
+Resource: YouTube [Video](https://www.youtube.com/watch?v=k5E2AVpwsko&t=1965s)
+
+**Todays Progress**: Angular
+
+**Thoughts**
+Mosh's Angular Crash Course
