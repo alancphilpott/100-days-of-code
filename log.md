@@ -334,7 +334,7 @@ Resource: Captive Portal [Wiki](https://en.wikipedia.org/wiki/Captive_portal)
 **Thoughts**
 Captive Portals Day 2
 
-### Day 65: June 22, 2020
+### Day 66: June 22, 2020
 
 Resource: YouTube [Video](https://www.youtube.com/watch?v=k5E2AVpwsko&t=1965s)
 
