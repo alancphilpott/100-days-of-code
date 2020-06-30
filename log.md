@@ -342,3 +342,28 @@ Resource: YouTube [Video](https://www.youtube.com/watch?v=k5E2AVpwsko&t=1965s)
 
 **Thoughts**
 Mosh's Angular Crash Course
+
+### June 23 - 29 - Burnout, Had a Break
+
+### Day 67: June 30, 2020
+
+Resource: YouTube [Video](https://www.youtube.com/watch?v=9HsEMyKrlnw&list=WL&index=2&t=0s)
+
+**Todays Progress**: AWS S3 (Simple Storage Service) Information - Yet to put into practice, awaiting AWS account activation (24 hours).
+
+**Thoughts**
+Topics Covered:
+
+-   Quick Overview of AWS Storage Services: Elastic Block Store, Elastic File System, S3 Glacier, Storage Gateway
+
+-   S3 provides a web interface through which any amount of data can be stored and retrieved at any time, from anywhere on the web and quickly.
+
+-   S3 stores object data in buckets. Buckets can be created in any available region. An objects contains a storage class property which determines how a file is stored. The most common storage classes are Standard, Infrequent Access and Glacier. A files lifecycle can be configured to change its storage class or file experation.
+
+-   Versioning can be enabled to keep a reference to older versions of a file. This keeps S3 durable by ensuring any change, whether accidental or intentional never results in a file being completely lost. Older version of files can be referenced by their Version ID.
+
+-   S3 is also made durable using CRR (Cross Region Replication). This allows you to move data from one bucket to another bucket in a different region. If one region has an outage, your file may be accessed from another region, although it may be at a slightly slower rate.
+
+-   S3 Transfer Accerleration is used to ensure data is accessible quickly from regions outside of your own. This works in conjuction with AWS CloudFront which caches your data at an Edge Location, this location allows your data to be retrieved quicker as it will be closer to your current region. The Edge Location has an optimized network path between itself and the S3 Bucket.
+
+-   Access Policies allow your data to remain secure by only allowing certain actions to be performed within your Bucket.
