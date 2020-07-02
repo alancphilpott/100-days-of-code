@@ -367,3 +367,30 @@ Topics Covered:
 -   S3 Transfer Accerleration is used to ensure data is accessible quickly from regions outside of your own. This works in conjuction with AWS CloudFront which caches your data at an Edge Location, this location allows your data to be retrieved quicker as it will be closer to your current region. The Edge Location has an optimized network path between itself and the S3 Bucket.
 
 -   Access Policies allow your data to remain secure by only allowing certain actions to be performed within your Bucket.
+
+### Day 68: July 1, 2020
+
+Resource: YouTube [Video](https://www.youtube.com/watch?v=8TlukLu11Yo)
+
+**Todays Progress**: AWS EC2 overview and configuration. Also hosted an Express API on an instance.
+
+**Thoughts**
+Topics Covered:
+
+-   EC2 is a secure and scalable compute capacity in the cloud with many advantages such as not needing to invest in physical hardware, only paying for the compute you use and being able to work from anywhere in the world.
+
+-   There are a number of steps involved in setting up an EC2 Instance:
+
+```
+Choosing an AMI - the template used to create a new instance which will include os, software, volume and access information.
+Chose an Instance Type - the hardware specs used for the machine, different instances are optimized for different usage requirements.
+Configure Instance - this includes the number of instances, purchasing options, IAM role, startup and shutdown behaviour etc.
+Adding Storage - can be a standard SSD volume or integrate with other AWS services such as EBS and S3.
+Adding Tags - used in identifying the machine if manny instances exist.
+Configure Security Group - controlling the access of inbound and outbound traffic. e.g. exposing HTTP or custom TCP ports.
+Review Configuration - ensure instance is configured correctly for the required use case.
+```
+
+-   On Windows, use PuTTY to SSH into the instance, or on Linux use a .pem file along with the SSH command to emulate the instance terminal.
+
+-   SSH is a protocol for operating network services securely, in this case, executing commands within the instance, remotely.
