@@ -352,6 +352,7 @@ Resource: YouTube [Video](https://www.youtube.com/watch?v=9HsEMyKrlnw&list=WL&in
 **Todays Progress**: AWS S3 (Simple Storage Service) Information - Yet to put into practice, awaiting AWS account activation (24 hours).
 
 **Thoughts**
+
 Topics Covered:
 
 -   Quick Overview of AWS Storage Services: Elastic Block Store, Elastic File System, S3 Glacier, Storage Gateway
@@ -375,6 +376,7 @@ Resource: YouTube [Video](https://www.youtube.com/watch?v=8TlukLu11Yo)
 **Todays Progress**: AWS EC2 overview and configuration. Also hosted an Express API on an instance.
 
 **Thoughts**
+
 Topics Covered:
 
 -   EC2 is a secure and scalable compute capacity in the cloud with many advantages such as not needing to invest in physical hardware, only paying for the compute you use and being able to work from anywhere in the world.
@@ -394,3 +396,59 @@ Review Configuration - ensure instance is configured correctly for the required 
 -   On Windows, use PuTTY to SSH into the instance, or on Linux use a .pem file along with the SSH command to emulate the instance terminal.
 
 -   SSH is a protocol for operating network services securely, in this case, executing commands within the instance, remotely.
+
+### Day 69+70: July 2+3, 2020
+
+Resource: YouTube [Playlist](https://www.youtube.com/playlist?list=PLv2a_5pNAko0Mijc6mnv04xeOut443Wnk)
+
+**Todays Progress**: Began working through an AWS Essentials playlist on YouTube. Completed the videos covering IAM, VPCs and S3.
+
+**Thoughts**
+
+Topics Covered:
+
+_IAM_
+
+-   Provides the tools necessary to control user access to services in AWS. Defines and manages the roles and access privileges of individual network users and the circumstances in which users are granted/denied those privileges.
+
+-   IAM User: an individual user of AWS. When you create an AWS account, you are the "root" user. Policies are used to determine what a user can/can't access. Policies can be attached directly to users.
+
+-   IAM Group: if a number of users require similar access policies, users can be added to a group, and rather than the policies being added to the user, they are attached to the group. Each user in the group then inherits those policies.
+
+-   IAM Role: provides access permissions for AWS services, such as EC2. If software running in EC2 requires access to another AWS service like DynamoDB, roles can be used at the service level to enable/grant that access. This removes the need for access codes/tokens to be stored in the application code.
+
+_VPC_
+
+-   A VPC, Shorthand for Virtual Private Cloud, is an area within AWS which you have full control. Provides you with the ability to configure custom IP address ranges, subnets, route tables and internet gateways. A "default" VPC is created for you when registering for AWS.
+
+-   Conceptual Example vs. Home Network
+
+![image](https://i.imgur.com/H6bBH3Z.png)
+
+```
+Modem = Internet Gateway
+Router = Route Table
+Firewall = Network Access Control List
+Devices = AWS Services (EC2)
+
+An IGW provides your private network with a route to the outside world ensuring instances within your VPC can access the internet.
+
+A Route Table contains rules/routes that decide where network traffic is directed.
+
+An NACL acts as a firewall controlling traffic in and out of one or more subnets. Inbound and Outbound rules are configured individually.
+
+Subnets are sub-sections of networks including all the internet-connected hardware in a specific location. By default, a subnet is created for each of the AZs in a region (E.G. Ireland = 3 AZs = 3 Subnets), meaning your VPC spans across all subnets. This is what allows AWS to become highly available and fault-tolerant as services affected in one AZ does not affect another.
+Note: Subnets without access to the internet are labelled as private.
+```
+
+![image](https://i.imgur.com/COhyqDB.png)
+
+_S3_
+
+-   An AWS Storage Service where objects of any type can be stored in buckets for later access at any scale, any time, from anywhere. Provides 11 9's of durability as data is replicated across multiple AZs using Cross-Region Replication. On routes with large amounts of requests, data is cloned to Edge Locations for quicker access thanks to AWS CloudFront, this process is what enables the S3 Transfer Acceleration feature.
+
+-   Objects in buckets can be given a storage class, this determines not only how much you pay for S3 but how the data can be accessed. 1) Standard: Default storage option with 11 9's durability and 4 9's availability, best used for files requiring very frequent access, most expensive storage option. 2) Infrequent Access: 11 9's durability with 3 9's availability, for files accessed every now and again, slightly cheaper alternative to standard. 3) Glacier: If required to store archival data for many years at a time, this is the suited storage option as it is the cheapest, still with 11 9's of durability but at a cost of objects taking several hours to retrieve.
+
+-   An objects lifecycle can be controlled to automatically update its storage class over a period of time for which the access interval of an object is known.
+
+-   Versioning is also available to prevent any overwriting/loss of important data. This is disabled by default but once enabled will ensure a backup of an object is always available.
