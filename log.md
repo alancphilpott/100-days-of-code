@@ -431,13 +431,17 @@ Router = Route Table
 Firewall = Network Access Control List
 Devices = AWS Services (EC2)
 
-An IGW provides your private network with a route to the outside world ensuring instances within your VPC can access the internet.
+An IGW provides your private network with a route to the outside world,
+ensuring instances within your VPC can access the internet.
 
 A Route Table contains rules/routes that decide where network traffic is directed.
 
-An NACL acts as a firewall controlling traffic in and out of one or more subnets. Inbound and Outbound rules are configured individually.
+An NACL acts as a firewall controlling traffic in and out of one or more subnets.
+Inbound and Outbound rules are configured individually.
 
-Subnets are sub-sections of networks including all the internet-connected hardware in a specific location. By default, a subnet is created for each of the AZs in a region (E.G. Ireland = 3 AZs = 3 Subnets), meaning your VPC spans across all subnets. This is what allows AWS to become highly available and fault-tolerant as services affected in one AZ does not affect another.
+Subnets are sub-sections of networks including all the internet-connected hardware in a specific location.
+By default, a subnet is created for each of the AZs in a region (E.G. Ireland = 3 AZs = 3 Subnets), meaning your VPC spans across all subnets.
+This is what allows AWS to become highly available and fault-tolerant as services affected in one AZ does not affect another.
 Note: Subnets without access to the internet are labelled as private.
 ```
 
